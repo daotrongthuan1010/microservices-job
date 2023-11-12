@@ -1,16 +1,10 @@
-package com.job.future.jobservice.model;
-
-import com.job.future.jobservice.utils.DateTimeUtils;
+package job.future.com.jobservice.model;
 
 import java.io.Serializable;
 import java.time.LocalDateTime;
-import javax.persistence.Column;
-import javax.persistence.EntityListeners;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.MappedSuperclass;
 
+import jakarta.persistence.*;
+import job.future.com.jobservice.utils.DateTimeUtils;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

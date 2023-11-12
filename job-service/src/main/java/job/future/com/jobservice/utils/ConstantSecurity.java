@@ -1,4 +1,4 @@
-package com.job.future.jobservice.utils;
+package job.future.com.jobservice.utils;
 
 /**
  * @author thuandao1010

@@ -1,7 +1,7 @@
-package com.job.future.jobservice.utils;
+package job.future.com.jobservice.utils;
 
-import javax.crypto.KeyGenerator;
-import javax.crypto.SecretKey;
+import jakarta.crypto.KeyGenerator;
+import jakarta.crypto.SecretKey;
 import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
 

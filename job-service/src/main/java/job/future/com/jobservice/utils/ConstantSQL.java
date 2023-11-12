@@ -1,6 +1,6 @@
-package com.job.future.jobservice.utils;
+package job.future.com.jobservice.utils;
 
-import javax.persistence.Column;
+import jakarta.persistence.Column;
 
 public final class ConstantSQL {
 
