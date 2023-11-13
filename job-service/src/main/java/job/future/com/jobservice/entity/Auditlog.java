@@ -1,7 +1,5 @@
 package job.future.com.jobservice.model;
 
-import java.io.Serializable;
-import java.time.LocalDateTime;
 
 import jakarta.persistence.*;
 import job.future.com.jobservice.utils.DateTimeUtils;
@@ -15,15 +13,10 @@ import org.springframework.data.annotation.LastModifiedBy;
 import org.springframework.data.annotation.LastModifiedDate;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
-/**
- * @author thuandao1010
- * @version 1.0
- * @since 2023-02-11
- */
-@Getter
-@Setter
-@NoArgsConstructor
-@AllArgsConstructor
+import java.io.Serializable;
+import java.time.LocalDateTime;
+
+
 @EntityListeners(AuditingEntityListener.class)
 @MappedSuperclass
 public class Auditlog implements Serializable {
