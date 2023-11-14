@@ -4,11 +4,7 @@ import java.util.Locale;
 import org.springframework.context.MessageSource;
 import org.springframework.http.HttpStatus;
 
-/**
- * @author thuandao1010
- * @version 1.0
- * @since 2023-02-11
- */
+
 public class GetMessageError {
 
   private MessageSource messageSource;

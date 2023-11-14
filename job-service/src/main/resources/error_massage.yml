@@ -1,0 +1,8 @@
+response:
+  jakarta:
+    error_message:
+      bad_request: "Dữ liệu không đúng, vui lòng thử lại."
+      not_found: "Không tồn tại dữ liệu, vui lòng thử lại"
+      internal_server:  "Server bị lỗi, vui lòng thử lại."
+      forbidden: "Client không có quyền truy cập vào phần nội dung."
+

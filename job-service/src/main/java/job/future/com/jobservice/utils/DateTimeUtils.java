@@ -5,11 +5,7 @@ import java.time.ZoneId;
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 
-/**
- * @author thuandao1010
- * @version 1.0
- * @since 2023-02-11
- */
+
 public class DateTimeUtils {
 
   public static LocalDateTime convertToUTC(LocalDateTime localDateTime, String timeZone) {

@@ -1,2 +1,4 @@
-package job.future.com.jobservice.service;public class JobPathService {
+package job.future.com.jobservice.service;
+
+public interface JobPathService {
 }
